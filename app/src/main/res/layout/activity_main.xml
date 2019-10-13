@@ -35,6 +35,7 @@
         app:foreground_text="*"
         app:foreground_text_color="@color/colorPrimary"
         app:scale_content_length="4" />
+
     <com.example.os.scaletextview.ScaleTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,6 +45,7 @@
         app:foreground_text="*"
         app:foreground_text_color="@color/colorPrimary"
         app:scale_content_length="4" />
+
     <com.example.os.scaletextview.ScaleTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -53,6 +55,7 @@
         app:foreground_text="*"
         app:foreground_text_color="@color/colorPrimary"
         app:scale_content_length="4" />
+
     <com.example.os.scaletextview.ScaleTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -80,7 +83,22 @@
         app:foreground_color_end="5"
         app:foreground_color_start="3"
         app:foreground_text="漂亮的妹子"
-        app:foreground_text_color="@color/colorPrimary"
-         />
+        app:foreground_text_color="@color/colorPrimary" />
+
+    <com.example.os.scaletextview.ScaleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="老司机"
+        app:scale_content_length="4" />
+    <com.example.os.scaletextview.ScaleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="司机"
+        app:scale_content_length="4" />
+    <com.example.os.scaletextview.ScaleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试中"
+        app:scale_content_length="4" />
 
 </LinearLayout>
