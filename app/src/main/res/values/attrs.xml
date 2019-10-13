@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScaleTextView">
+        <!--通常都是固定的,比如在前面加 * 或者 # -->
+        <attr name="foreground_text" format="string" />
+        <!--固定某个部位的颜色-->
+        <attr name="foreground_text_color" format="reference" />
+        <!--固定某个部位的颜色 起点-->
+        <attr name="foreground_color_start" format="integer" />
+        <!--固定某个部位的颜色 终点-->
+        <attr name="foreground_color_end" format="integer" />
+        <!--缩放内容的长度-->
+        <attr name="scale_content_length" format="integer" />
+    </declare-styleable>
+</resources>

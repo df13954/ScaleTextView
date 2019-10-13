@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.os.scaletextview.ScaleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        app:foreground_color_end="1"
+        app:foreground_color_start="0"
+        app:foreground_text="*"
+        app:foreground_text_color="@color/colorPrimary"
+        app:scale_content_length="4" />
+
+    <com.example.os.scaletextview.ScaleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性别"
+        app:foreground_color_end="1"
+        app:foreground_color_start="0"
+        app:foreground_text="*"
+        app:foreground_text_color="@color/colorPrimary"
+        app:scale_content_length="4" />
+    <com.example.os.scaletextview.ScaleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地址"
+        app:foreground_color_end="1"
+        app:foreground_color_start="0"
+        app:foreground_text="*"
+        app:foreground_text_color="@color/colorPrimary"
+        app:scale_content_length="4" />
+    <com.example.os.scaletextview.ScaleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="验证码"
+        app:foreground_color_end="1"
+        app:foreground_color_start="0"
+        app:foreground_text="*"
+        app:foreground_text_color="@color/colorPrimary"
+        app:scale_content_length="4" />
+    <com.example.os.scaletextview.ScaleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机号码"
+        app:foreground_color_end="1"
+        app:foreground_color_start="0"
+        app:foreground_text="*"
+        app:foreground_text_color="@color/colorPrimary"
+        app:scale_content_length="4" />
+
+    <com.example.os.scaletextview.ScaleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微信"
+        app:foreground_color_end="2"
+        app:foreground_color_start="0"
+        app:foreground_text="妹子"
+        app:foreground_text_color="@color/colorPrimary"
+        app:scale_content_length="4" />
+
+    <com.example.os.scaletextview.ScaleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微信"
+        app:foreground_color_end="5"
+        app:foreground_color_start="3"
+        app:foreground_text="漂亮的妹子"
+        app:foreground_text_color="@color/colorPrimary"
+         />
+
+</LinearLayout>
